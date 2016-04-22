@@ -83,11 +83,12 @@ function test_input($data) {
    <span class="error"><?php echo $PhoneErr;?></span>
    <br><br>
    <input type="submit" name="submit" value="Submit"/>
+	echo "hello world";
+	echo "<br>";
 </form>
 
 <?php
 if($_SERVER['REQUEST_METHOD'] == 'POST' && $err == 0) {
-
 $tmp = "$name $email $Phone";
 $tfile = fopen("tfile.txt", "w");
 fwrite($tfile,$tmp);
