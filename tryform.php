@@ -85,6 +85,7 @@ function test_input($data) {
    <input type="submit" name="submit" value="Submit"/>
 	echo "hello world";
 	echo "<br>";
+	echo "second change";
 </form>
 
 <?php
